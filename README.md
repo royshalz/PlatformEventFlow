@@ -4,7 +4,6 @@
 // Create an instance of the Platform Event
 Message_c__e event = new Message_c__e();
 
-// Set the custom field value (e.g., "Create an Account" or "Create a Case")
 event.action__c = 'CreateAccount';
 
 // Publish the event
